@@ -1,0 +1,10 @@
+.tmp/
+node_modules/
+npm-debug.log
+.DS_STORE
+*/.DS_STORE
+_build/
+dist/
+selenium-debug.log
+*.swp
+*.swo
