@@ -8,3 +8,4 @@ dist/
 selenium-debug.log
 *.swp
 *.swo
+.nyc_output/*
