@@ -3,7 +3,6 @@ var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var autoprefixer = require('autoprefixer');
 var postcssImport = require('postcss-import');
-var postcssUrl = require('postcss-url');
 
 module.exports = {
   devtool: 'source-map',
@@ -43,9 +42,6 @@ module.exports = {
         loader: 'json'
       }
     ]
-  },
-  postcss: function (webpack) {
-    return [autoprefixer({browsers: ['safari >= 8', 'ie >= 10']}), postcssImport({addDependencyTo: webpack}), postcssUrl({})]
   },
   plugins: [
     new HtmlWebpackPlugin({
