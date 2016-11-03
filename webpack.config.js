@@ -13,10 +13,6 @@ module.exports = {
   },
   resolve: {
     root: path.resolve(__dirname),
-    alias: {
-      srcDir: path.join(__dirname, '/src'),
-      testDir: path.join(__dirname, '/test')
-    },
     extensions: ['', '.js']
   },
   devServer: {
