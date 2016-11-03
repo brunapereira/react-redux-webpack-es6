@@ -1,5 +1,18 @@
 # React/Redux Boilerplate
 
+## Usage
+
+``` 
+git clone https://github.com/brunapereira/react-redux-webpack-es6
+cd react-redux-webpack-es6
+npm install
+npm start
+
+# Open http://localhost:3000
+```
+
+And you should be able to see a Hello World message!
+
 ## Tech Stack
 
 - React
