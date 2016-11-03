@@ -1,4 +1,4 @@
-# React/Redux Boilerplate Application
+# React/Redux Boilerplate
 
 ## Tech Stack
 
